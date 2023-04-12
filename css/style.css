@@ -1,0 +1,217 @@
+body {
+    min-height: 100vh;
+    max-width: 1280px;
+    margin: auto;
+}
+
+html {
+    background-size: cover;
+    background-image: url(../media/wallhaven-4dw5wo.jpg)
+}
+
+
+h1 {
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding-top: 0%;
+    font-size: 30px;
+    background-image: url(../media/wallhaven-lqwgdy.jpg);
+
+
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    color: #020202;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    flex-grow: initial;
+}
+
+
+/* NAV */
+
+.navbar-nav { 
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+}
+
+.navbar-brand{
+    margin: 8px;
+    color: #144E75;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+
+}
+
+
+/*MAIN */
+
+
+/* INDEX */
+.foto {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    margin: 0 auto;
+    align-items:center;
+}
+
+/* Juegos */
+.table {    
+    padding: 0%;
+    margin: 0%;
+    width: 300px;
+    height: auto;
+}
+.reco {
+    font-size: 25px;
+    color: #8566b8;
+    font-family: 'Roboto', serif; 
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+.video  {
+    padding-left: 0px;
+    padding-right: 20%; 
+    width: 488px;
+    height: 286px;
+}
+/* JUEGOS */
+.imgtable {
+    padding: 0%;
+    margin: auto;
+    width: 20%;
+    height: auto;
+    align-content: last baseline;
+}
+
+/* CONTACTO */
+
+.btn     {
+    color: #7a7ec0;
+    background-color: #ffffff;
+    align-content: center;
+}
+.row {
+    text-align: left
+
+}
+
+
+/* CIENCIA */
+
+.cards {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 100%;
+    gap: 20px;
+
+}
+
+.card {
+    width: 25%;
+    background-color: #eee;
+    border: 2px solid black;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card__body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.card__body h3 {
+    font-size: 30px;
+}
+
+.card__body h4 {
+    font-size: 24px;
+}
+
+.card__body p {
+    font-size: 24px;
+}
+
+.card__body a {
+    text-decoration: none;
+    background-color: #0E8388;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.c-row {
+    display: flex;
+    width: 50%;
+} */
+
+/*FOOTER*/
+
+.icon { 
+    position: center;
+    background-color: #97DEFF;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;  
+    margin: 0 auto;
+    margin-top: 105px;    
+    border: 3px #545ee4 dashed;
+    text-align: center;
+}
+.icon img {
+    width: 30px;
+    height: 30px;
+    padding-top: 0px;
+    padding-left: 4px;
+    padding-bottom: 10px;
+    padding-right: 4px; 
+}
+
+.wsp {
+    position:fixed;
+    align-items:right;
+    bottom: 10px;
+    right: 10px;
+}
+
+.wsp img{
+    width: 40px;
+    height: 100%;
+    align-items:  right;
+}
+
